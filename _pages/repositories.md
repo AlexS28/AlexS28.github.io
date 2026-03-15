@@ -10,6 +10,6 @@ nav_order: 4
 <div class="repositories">
   <p>
     <a href="https://github.com/AlexS28/OptiState"><strong>OptiState</strong></a><br>
-    Energy-efficient motion planning and state estimation tools for robotic systems.
+    State Estimation for Legged Robots.
   </p>
 </div>
