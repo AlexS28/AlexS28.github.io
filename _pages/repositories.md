@@ -7,9 +7,8 @@ nav: true
 nav_order: 4
 ---
 
-<div class="repositories">
-  <p>
-    <a href="https://github.com/AlexS28/OptiState"><strong>OptiState</strong></a><br>
-    State Estimation for Legged Robots.
-  </p>
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+
+{% include repository/repo.liquid repository="AlexS28/OptiState" %}
+
 </div>
