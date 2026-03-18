@@ -59,3 +59,20 @@
 
   bibtex_show={true}
 }
+
+@inproceedings{schperberg2024optistate,
+  title={OptiState: State Estimation of Legged Robots using Gated Networks with Transformer-based Vision and Kalman Filtering},
+  author={Schperberg, Alexander and Tanaka, Yusuke and Mowlavi, Saviz and Xu, Feng and Balaji, Bharathan and Hong, Dennis},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024},
+  abbr={ICRA},
+  preview={icra2024.gif},
+  pdf={icra2024.pdf},
+  video={https://www.youtube.com/watch?v=8GMKpIage3Q},
+  website={https://ieeexplore.ieee.org/document/10610160},
+  selected={true},
+  abstract={State estimation for legged robots is challenging due to their highly dynamic motion and limitations imposed by sensor accuracy. By integrating Kalman filtering, optimization, and learning-based modalities, we propose a hybrid solution that combines proprioception and exteroceptive information for estimating the state of the robot’s trunk. Leveraging joint encoder and IMU measurements, our Kalman filter is enhanced through a single-rigid body model that incorporates ground reaction force control outputs from convex Model Predictive Control optimization. The estimation is further refined through Gated Recurrent Units, which also considers semantic insights and robot height from a Vision Transformer autoencoder applied on depth images. This framework not only furnishes accurate robot state estimates, including uncertainty evaluations, but can minimize the nonlinear errors that arise from sensor measurements and model simplifications through learning. The proposed methodology is evaluated in hardware using a quadruped robot on various terrains, yielding a 65% improvement on the Root Mean Squared Error compared to our VIO SLAM baseline.},
+  bibtex_show={true}
+}
+
+
