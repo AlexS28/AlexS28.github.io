@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-16'
+  last_updated: '2026-03-20'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 11
@@ -30,7 +30,7 @@ papers:
     title: 'MoBI-Box: A next generation Mobile Brain-Body Imaging Platform'
     year: '2016'
   UUtvXHEAAAAJ:KlAtU1dfN6UC:
-    citations: 2
+    citations: 3
     title: Energy-Efficient Motion Planner for Legged Robots
     year: '2025'
   UUtvXHEAAAAJ:LkGwnXOMwfcC:
@@ -62,11 +62,11 @@ papers:
     title: Machine learning model to predict oncologic outcomes for drugs in randomized clinical trials
     year: '2020'
   UUtvXHEAAAAJ:UebtZRa9Y70C:
-    citations: 11
+    citations: 12
     title: 'Real-to-sim: Predicting residual errors of robotic systems with sparse data using a learning-based unscented kalman filter'
     year: '2023'
   UUtvXHEAAAAJ:W7OEmFMy1HYC:
-    citations: 18
+    citations: 19
     title: 'Saber: Data-driven motion planner for autonomously navigating heterogeneous robots'
     year: '2021'
   UUtvXHEAAAAJ:WF5omc3nYNoC:
@@ -111,7 +111,7 @@ papers:
     year: '2024'
   UUtvXHEAAAAJ:qxL8FJ1GzNcC:
     citations: 0
-    title: Internship at MERL
+    title: 'Amplification Effects in Test-Time Reinforcement Learning: Safety and Reasoning Vulnerabilities'
     year: '2026'
   UUtvXHEAAAAJ:roLk4NBRz8UC:
     citations: 4
