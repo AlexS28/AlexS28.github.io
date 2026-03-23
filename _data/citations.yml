@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-03-23'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
-    citations: 11
+    citations: 12
     title: 'Scaler: Versatile multi-limbed robot for free-climbing in extreme terrains'
     year: '2025'
   UUtvXHEAAAAJ:2osOgNQ5qMEC:
@@ -109,10 +109,6 @@ papers:
     citations: 3
     title: 'SCALER-B: A Multi-Modal Versatile Robot for Simultaneous Locomotion and Grasping'
     year: '2024'
-  UUtvXHEAAAAJ:qxL8FJ1GzNcC:
-    citations: 0
-    title: 'Amplification Effects in Test-Time Reinforcement Learning: Safety and Reasoning Vulnerabilities'
-    year: '2026'
   UUtvXHEAAAAJ:roLk4NBRz8UC:
     citations: 4
     title: 'Real-to-sim: Deep learning with auto-tuning to predict residual errors using sparse data'
