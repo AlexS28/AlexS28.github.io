@@ -43,7 +43,7 @@ layout: default
         {% if page.social %}
           <div class="profile-social" style="margin-top: 0.75rem;">
             <div class="contact-icons" style="font-size: 1.2rem;">
-              
+
               {% if site.data.socials.cv_pdf %}
                 <a href="{{ site.data.socials.cv_pdf | relative_url }}"
                    title="CV"
@@ -94,12 +94,12 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.news and site.announcements.enabled %}
+    {% if page.announcements and page.announcements.enabled %}
       <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
-    {% if page.latest_posts and site.latest_posts.enabled %}
+    {% if page.latest_posts and page.latest_posts.enabled %}
       <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
       {% include latest_posts.liquid %}
     {% endif %}
