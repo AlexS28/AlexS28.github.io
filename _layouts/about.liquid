@@ -44,8 +44,12 @@ layout: default
           <div class="profile-social" style="margin-top: 0.75rem;">
             <div class="contact-icons" style="font-size: 1.2rem;">
               {% if site.data.socials.cv_pdf %}
-                <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" target="_blank" rel="noopener noreferrer" style="margin-right: 0.45rem;">
-                  <i class="fas fa-file-pdf"></i>
+                <a href="{{ site.data.socials.cv_pdf | relative_url }}"
+                   title="CV"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="margin-right: 0.6rem;">
+                  <i class="fas fa-file-alt"></i> CV
                 </a>
               {% endif %}
 
