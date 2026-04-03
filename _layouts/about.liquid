@@ -10,7 +10,7 @@ layout: default
         {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {{ page.title }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
@@ -89,24 +89,60 @@ layout: default
     </div>
 
     {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a>
-      </h2>
+      <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     {% if page.latest_posts and site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a>
-      </h2>
+      <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a>
-      </h2>
+      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% if site.data.socials.cv_pdf %}
+            <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          {% endif %}
+
+          {% if site.data.socials.email %}
+            <a href="mailto:{{ site.data.socials.email }}" title="email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          {% endif %}
+
+          {% if site.data.socials.scholar_userid %}
+            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          {% endif %}
+
+          {% if site.data.socials.github_username %}
+            <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+            </a>
+          {% endif %}
+
+          {% if site.data.socials.linkedin_username %}
+            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          {% endif %}
+
+          {% if site.data.socials.x_username %}
+            <a href="https://x.com/{{ site.data.socials.x_username }}" title="X" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
     {% endif %}
   </article>
 </div>
