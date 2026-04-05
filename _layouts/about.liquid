@@ -65,7 +65,12 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">
-          {% include social.liquid %}
+          {% if site.data.socials.cv_pdf %}<a href="{{ site.data.socials.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" title="CV" target="_blank" rel="noopener noreferrer"><i class="ai ai-cv"></i></a>{% endif %}
+          {% if site.data.socials.email %}<a href="mailto:{{ site.data.socials.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>{% endif %}
+          {% if site.data.socials.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>{% endif %}
+          {% if site.data.socials.github_username %}<a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.data.socials.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if site.data.socials.x_username %}<a href="https://x.com/{{ site.data.socials.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
         </div>
 
         <div class="contact-note">
