@@ -1,4 +1,4 @@
-//*******************************************************************************
+/*******************************************************************************
  * Content
  ******************************************************************************/
 
@@ -38,37 +38,33 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
-
-  .more-info {
-    p {
-      margin-bottom: 0.45rem;
-    }
-  }
 }
+
+/*******************************************************************************
+ * Custom profile text links
+ ******************************************************************************/
 
 .profile-text-links {
   margin-top: 0.6rem;
   line-height: 1.8;
   font-size: 0.95rem;
+}
 
-  a {
-    color: var(--profile-link-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition:
-      color 0.2s ease,
-      opacity 0.2s ease;
-  }
+.profile-text-links a {
+  color: var(--profile-link-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
 
-  a:hover {
-    color: var(--profile-link-hover-color);
-    opacity: 0.9;
-  }
+.profile-text-links a:hover {
+  color: var(--profile-link-hover-color);
+  opacity: 0.9;
+}
 
-  span {
-    margin: 0 0.45rem;
-    color: var(--global-text-color-light);
-  }
+.profile-text-links span {
+  margin: 0 0.45rem;
+  color: var(--global-text-color-light);
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
