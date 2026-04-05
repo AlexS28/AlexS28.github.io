@@ -70,14 +70,15 @@ body.sticky-bottom-footer {
 .intro-media {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center; /* centers horizontally */
 }
 
 .intro-media img {
-  width: 320px;
+  width: 360px;
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  display: block;
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
