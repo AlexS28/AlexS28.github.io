@@ -38,8 +38,12 @@ layout: default
     {% endif %}
 
     <div class="clearfix">
-      {{ content }}
-    </div>
+  {{ content }}
+
+  <div class="intro-media">
+    <img src="{{ 'assets/img/alex_profile.jpg' | relative_url }}" alt="intro visual">
+  </div>
+</div>
 
     {% if page.announcements and page.announcements.enabled %}
       <h2>
