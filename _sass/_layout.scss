@@ -67,6 +67,19 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light);
 }
 
+.intro-media {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-media img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
