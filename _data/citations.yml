@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-03'
+  last_updated: '2026-04-10'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -18,7 +18,7 @@ papers:
     title: 'PRISM: Performer RS-IMLE for Single-pass Multisensory Imitation Learning'
     year: '2026'
   UUtvXHEAAAAJ:5nxA0vEk-isC:
-    citations: 13
+    citations: 14
     title: 'Optistate: State estimation of legged robots using gated networks with transformer-based vision and kalman filtering'
     year: '2024'
   UUtvXHEAAAAJ:8k81kl-MbHgC:
