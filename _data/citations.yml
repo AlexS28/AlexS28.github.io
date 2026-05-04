@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-05-04'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -38,7 +38,7 @@ papers:
     title: Learning Near-global-optimal Strategies for Hybrid Non-convex Model Predictive Control of Single Rigid Body Locomotion
     year: '2022'
   UUtvXHEAAAAJ:M3ejUd6NZC8C:
-    citations: 0
+    citations: 1
     title: Safe whole-body loco-manipulation via combined model and learning-based control
     year: '2026'
   UUtvXHEAAAAJ:MXK_kJrjxJIC:
@@ -54,11 +54,11 @@ papers:
     title: Risk-Averse MPC via Visual-Inertial Input and Recurrent Networks for Online Collision Avoidance
     year: '2020'
   UUtvXHEAAAAJ:ULOm3_A8WrAC:
-    citations: 1
+    citations: 2
     title: 'GRAM: Generalization in Deep RL with a Robust Adaptation Module'
     year: '2025'
   UUtvXHEAAAAJ:UeHWp8X0CEIC:
-    citations: 32
+    citations: 31
     title: Machine learning model to predict oncologic outcomes for drugs in randomized clinical trials
     year: '2020'
   UUtvXHEAAAAJ:UebtZRa9Y70C:
@@ -74,7 +74,7 @@ papers:
     title: Simultaneous contact-rich grasping and locomotion via distributed optimization enabling free-climbing for multi-limbed robots
     year: '2022'
   UUtvXHEAAAAJ:Y0pCki6q_DkC:
-    citations: 158
+    citations: 161
     title: Synthetic lethality-mediated precision oncology via the tumor transcriptome
     year: '2021'
   UUtvXHEAAAAJ:YOwf2qJgpHMC:
@@ -114,6 +114,6 @@ papers:
     title: 'Real-to-sim: Deep learning with auto-tuning to predict residual errors using sparse data'
     year: '2022'
   UUtvXHEAAAAJ:ufrVoPGSRksC:
-    citations: 48
+    citations: 53
     title: 'Scaler: A tough versatile quadruped free-climber robot'
     year: '2022'
