@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-11'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -54,11 +54,11 @@ papers:
     title: Risk-Averse MPC via Visual-Inertial Input and Recurrent Networks for Online Collision Avoidance
     year: '2020'
   UUtvXHEAAAAJ:ULOm3_A8WrAC:
-    citations: 2
+    citations: 3
     title: 'GRAM: Generalization in Deep RL with a Robust Adaptation Module'
     year: '2025'
   UUtvXHEAAAAJ:UeHWp8X0CEIC:
-    citations: 31
+    citations: 32
     title: Machine learning model to predict oncologic outcomes for drugs in randomized clinical trials
     year: '2020'
   UUtvXHEAAAAJ:UebtZRa9Y70C:
@@ -74,7 +74,7 @@ papers:
     title: Simultaneous contact-rich grasping and locomotion via distributed optimization enabling free-climbing for multi-limbed robots
     year: '2022'
   UUtvXHEAAAAJ:Y0pCki6q_DkC:
-    citations: 161
+    citations: 163
     title: Synthetic lethality-mediated precision oncology via the tumor transcriptome
     year: '2021'
   UUtvXHEAAAAJ:YOwf2qJgpHMC:
