@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-05-25'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -58,11 +58,11 @@ papers:
     title: 'GRAM: Generalization in Deep RL with a Robust Adaptation Module'
     year: '2025'
   UUtvXHEAAAAJ:UeHWp8X0CEIC:
-    citations: 32
+    citations: 31
     title: Machine learning model to predict oncologic outcomes for drugs in randomized clinical trials
     year: '2020'
   UUtvXHEAAAAJ:UebtZRa9Y70C:
-    citations: 12
+    citations: 13
     title: 'Real-to-sim: Predicting residual errors of robotic systems with sparse data using a learning-based unscented kalman filter'
     year: '2023'
   UUtvXHEAAAAJ:W7OEmFMy1HYC:
@@ -114,6 +114,6 @@ papers:
     title: 'Real-to-sim: Deep learning with auto-tuning to predict residual errors using sparse data'
     year: '2022'
   UUtvXHEAAAAJ:ufrVoPGSRksC:
-    citations: 53
+    citations: 54
     title: 'Scaler: A tough versatile quadruped free-climber robot'
     year: '2022'
