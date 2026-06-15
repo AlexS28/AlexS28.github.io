@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-15'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 15
@@ -54,7 +54,7 @@ papers:
     title: Risk-Averse MPC via Visual-Inertial Input and Recurrent Networks for Online Collision Avoidance
     year: '2020'
   UUtvXHEAAAAJ:ULOm3_A8WrAC:
-    citations: 3
+    citations: 5
     title: 'GRAM: Generalization in Deep RL with a Robust Adaptation Module'
     year: '2025'
   UUtvXHEAAAAJ:UeHWp8X0CEIC:
@@ -97,6 +97,10 @@ papers:
     citations: 0
     title: 'MOBIUS: A Multi-Modal Bipedal Robot that can Walk, Crawl, Climb, and Roll'
     year: '2025'
+  UUtvXHEAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: 'MIRROR: Multisensory Implicit Rejection-sampled RObotic policy'
+    year: Unknown Year
   UUtvXHEAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Reducing Motion Perturbation for a Bipedal Robot using Model Predictive Control
