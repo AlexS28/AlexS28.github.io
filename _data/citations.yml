@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-07-01'
 papers:
   UUtvXHEAAAAJ:0EnyYjriUFMC:
     citations: 15
@@ -13,12 +13,16 @@ papers:
     citations: 0
     title: 'Towards Intelligent Robotic Systems: Unifying Model-based Optimization and Machine Learning for Planning, Control, and Estimation'
     year: '2024'
+  UUtvXHEAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: 'RoboAtlas: Contextual Active SLAM'
+    year: '2026'
   UUtvXHEAAAAJ:4TOpqqG69KYC:
     citations: 0
     title: 'PRISM: Performer RS-IMLE for Single-pass Multisensory Imitation Learning'
     year: '2026'
   UUtvXHEAAAAJ:5nxA0vEk-isC:
-    citations: 14
+    citations: 15
     title: 'Optistate: State estimation of legged robots using gated networks with transformer-based vision and kalman filtering'
     year: '2024'
   UUtvXHEAAAAJ:8k81kl-MbHgC:
@@ -74,7 +78,7 @@ papers:
     title: Simultaneous contact-rich grasping and locomotion via distributed optimization enabling free-climbing for multi-limbed robots
     year: '2022'
   UUtvXHEAAAAJ:Y0pCki6q_DkC:
-    citations: 166
+    citations: 167
     title: Synthetic lethality-mediated precision oncology via the tumor transcriptome
     year: '2021'
   UUtvXHEAAAAJ:YOwf2qJgpHMC:
